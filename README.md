@@ -5,7 +5,8 @@ You can use the [editor on GitHub](https://github.com/mericstam/mericstam.github
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 {{ "adam!" | capitalize | prepend: "Hello " }}
 
-Today it is: {{ site.time | date_to_string: "ordinal", "US" }}
+Today it is
+{{ site.time | date_to_string: "ordinal", "US" }}
 
 ### Markdown
 
